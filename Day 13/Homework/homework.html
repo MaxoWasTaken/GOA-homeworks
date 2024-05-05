@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Discover Content Here</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a passionate team dedicated to delivering exceptional web solutions tailored to our clients' needs.</p>
+        <p>Our mission is to provide innovative and creative digital services that help businesses succeed in the online world.</p>
+        <p>At My Awesome Website, we specialize in web design, development, digital marketing, and content creation. With years of experience and a commitment to excellence, we strive to exceed our clients' expectations.</p>
+        <p>Get in touch with us today and let's create something amazing together!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Graphic Design</li>
+            <li>Digital Marketing</li>
+            <li>Content Writing</li>
+        </ul>
+        <button onclick="alert('Contact us to learn more!')">Learn More</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to collaborate? Reach out to us!</p>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+</body>
+</html>
